@@ -31,6 +31,18 @@ const productData = [
     stock: 22,
     category_id: 2,
   },
+  {
+    product_name: 'LongSleve T-Shirt',
+    price: 24.99,
+    stock: 10,
+    category_id: 1,
+  },
+  {
+    product_name: 'Graphic T-Shirt',
+    price: 18.99,
+    stock: 4,
+    category_id: 1,
+  },
 ];
 
 const seedProducts = () => Product.bulkCreate(productData);

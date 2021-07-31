@@ -1,0 +1,25 @@
+{
+  "name": "e_commerce_back_end",
+  "version": "1.0.0",
+  "description": "Simulation of an e-commerce back end with a working Express.js API to use Sequelize to interact with a MySQL database",
+  "main": "node server.js",
+  "scripts": {
+    "test": "nodeman server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmoatman/E_Commerce_Back_End.git"
+  },
+  "author": "Raemarie Oatman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rmoatman/E_Commerce_Back_End/issues"
+  },
+  "homepage": "https://github.com/rmoatman/E_Commerce_Back_End#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
+  }
+}

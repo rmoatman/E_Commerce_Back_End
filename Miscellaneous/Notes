@@ -1,0 +1,36 @@
+npm init
+npm install express
+npm install mysql2
+npm intstall dotenv
+npm install sequalize?
+
+create .env
+create .gitignore (Miscellaneous/node_modules/package-lock.json)
+
+mysql -u root -p
+source db/schema.sql 
+use ecommerce_db
+exit mysql command line
+(open new connection mySQL workbench)
+node server.js
+
+
+Create the env code and change the code in connection.js
+
+Finish the models (use seed info and instructions as hints)
+
+Define the relationships in index
+
+Create the routes
+
+test the routes using Insomnia
+
+create the video
+
+update the readme
+
+submit to bootcampspot
+
+
+
+
