@@ -2,7 +2,7 @@
 
 [<img src="https://img.shields.io/badge/license-MIT-brightgreen?link=https://opensource.org/licenses/MIT">](https://opensource.org/licenses/MIT)
 
-<img src="./assets/screenshot_of_e_commerce_back_end.PNG" alt="Screenshot of terminal view displaying 'XXXXXX'">
+<img src="./assets/screenshot_of_e_commerce_back_end.PNG" alt="Screenshot of terminal view displaying 'Insomnia window with several folders'">
 <br><br>
 
 ## Description

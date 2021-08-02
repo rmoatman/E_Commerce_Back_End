@@ -47,8 +47,8 @@ router.get('/', async (req, res) => {
 router.post('/', async (req, res) => {
   /* req.body should look like this...
     {
-      "product_name": "Basketball",
-      "price": 200.00,
+      "product_name": "Band Poster",
+      "price": 20.00,
       "stock": 3,
       "tagIds": [1, 2, 3, 4]
     }
@@ -93,6 +93,7 @@ router.put('/:id', async (req, res) => {
       id: req.params.id,
     },
   })
+
     .then((product) => {
       // find all associated tags from ProductTag
       return ProductTag.findAll({ where: { product_id: req.params.id } });
@@ -124,7 +125,7 @@ router.put('/:id', async (req, res) => {
     })
 
     .then((updatedProductTags) => res.json(updatedProductTags))
-
+    
     .catch((err) => {
       // console.log(err);
       res.status(400).json(err);
