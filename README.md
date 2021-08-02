@@ -26,7 +26,7 @@ This repository can be cloned by using the following command:
 gh repo clone rmoatman/E_Commerce_Back_End
 ~~~
 
-Then, install the inquirer, MySql, and express dependencies using the command:
+Then, install the MySql2, Sequelize, .dotENV and Express packages using the command:
 ~~~
 npm install
 ~~~
@@ -38,7 +38,7 @@ To run the app, use the command:
 ~~~
 node express.js
 ~~~
-A demonstration video can be found here: XXX
+A demonstration video can be found here: https://drive.google.com/file/d/1tNaUlUtdppT6G4f5sQPRPq9a20fI00dw/view
 <br><br>
 ## License
 
